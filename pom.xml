@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.cleanup.data</groupId>
-	<artifactId>cleanup-data</artifactId>
+	<groupId>com.dtv.apg.cleanup.data</groupId>
+	<artifactId>apg-cleanup-data</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -55,8 +55,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<!-- <version>1.5.4.RELEASE</version> -->
 				<configuration>
-					<finalName>cleanup-data</finalName>
-					<mainClass>com.cleanup.data.CleanDataApplication</mainClass>
+					<finalName>apg-cleanup-data</finalName>
+					<mainClass>com.dtv.apg.cleanup.data.CleanDataApplication</mainClass>
 					<layout>ZIP</layout>
 				</configuration>
 				<executions>
@@ -74,5 +74,5 @@
 		</plugins>
 	</build>
 
-	<name>Clean Data</name>
+	<name>APG - Clean Data</name>
 </project>
